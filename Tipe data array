@@ -1,0 +1,36 @@
+<?php
+//pembuatan array dengan key
+$nama = array(
+        1=>"Andri",
+        2=>"Joko",
+        3=>"Sukma",
+        4=>"Rina",
+        5=>"Sari");
+ 
+//cara akses array
+echo $nama[1]; //Andri
+echo "<br />";
+echo $nama[2]; //Joko
+echo "<br />";
+echo $nama[3]; //Sukma
+######################
+// pembuatan array tanpa key
+$nama = array("Andi","Jaka","kusma","Rini","Sara");
+ 
+// pengaksesan array
+echo $nama[1]; //Jaka
+echo "<br />";
+echo $nama[2]; //kusma
+echo "<br />";
+echo $nama[3]; //Rini
+#####################
+ // pembuatan array php ver 5.4.x keatas
+   $nama = ["abcd","fghi","abco","Rona","Sari"];
+ 
+   // pengaksesan array
+   echo $nama[1]; //fghi
+   echo "<br />";
+   echo $nama[2]; //abco
+   echo "<br />";
+   echo $nama[3]; //Rona
+?>
