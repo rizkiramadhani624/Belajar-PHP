@@ -1,0 +1,25 @@
+<?php
+//dengan cara lama
+$a = "Hello ";
+$hasil = $a . "World!";
+echo $hasil; // Hello World!
+echo "<br />";
+ 
+$a = "belajar ";
+$b = "PHP ";   
+$c = "di Dikoding.com";   
+$hasil= "Saya sedang ".$a.$b.$c;
+echo $hasil; // Saya sedang belajar PHP di Dikoding.com
+#######################################################
+//dengan alternatif kurung kurawal
+$a = "Hello ";
+$hasil = "{$a} World!";
+echo $hasil; // Hello World!
+echo "<br />";
+ 
+$d = "belajar ";
+$e = "PHP ";   
+$f = "di Dikoding.com";   
+$hasil= "Saya sedang {$d}{$e}{$f}";
+echo $hasil; // Saya sedang belajar PHP di Dikoding.com
+?>
