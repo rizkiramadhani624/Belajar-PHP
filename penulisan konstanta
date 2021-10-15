@@ -1,0 +1,6 @@
+<?php
+   const situs = "www.dikoding.com";
+   echo situs;  // www.dikoding.com
+   define("situs", "www.dikoding.com");
+   echo situs;  // www.dikoding.com
+?>
