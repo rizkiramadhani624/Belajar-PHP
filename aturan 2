@@ -1,0 +1,16 @@
+<?php
+   $a='Saya Sedang belajar PHP';
+   $b=5;
+    
+   print $a; 
+   echo $b;
+   $a = 17; // nilai variabel a berisi angka (integer)
+   $a = "aku"; // nilai variabel a diubah menjadi kata (string)
+   $a = 17.42; // nilai variabel a diubah menjadi desimal (float)
+    $nama = "andi";
+   $umur = 17;
+   $pesan = "Saya sedang belajar PHP di Dikoding.com";
+   /* ini cara komentar dalam bentuk panjang
+   sebagai catatan variabel setelah sign dolar tidak boleh angka
+   */
+?>
